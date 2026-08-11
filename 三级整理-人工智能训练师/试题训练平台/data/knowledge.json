@@ -1,0 +1,165 @@
+[
+  {
+    "id": "1.1",
+    "title": "1.1.x & 2.1.x 数据预处理",
+    "points": [
+      {
+        "category": "读取数据",
+        "items": [
+          "read_csv",
+          "read_excel"
+        ]
+      },
+      {
+        "category": "理解数据",
+        "items": [
+          "print(data.head())",
+          "data.shape[0]",
+          "len(data)",
+          "data.info()"
+        ]
+      },
+      {
+        "category": "按条件生成新列",
+        "items": [
+          "np.where()",
+          "pd.cut()"
+        ]
+      },
+      {
+        "category": "计算/分组",
+        "items": [
+          "value_counts()",
+          "data.groupby().agg(['count','mean'])"
+        ]
+      },
+      {
+        "category": "检查/清洗",
+        "items": [
+          "data.isnull().sum()",
+          "data.duplicated().sum()",
+          "data.fillna(method='ffill'/'bfill')",
+          "data.drop(columns=[''])",
+          "data.rename(columns={'':''})",
+          "dropna(subset=[''])",
+          "isin([])",
+          ".between(20,30)",
+          "astype()",
+          "pd.to_numeric()"
+        ]
+      },
+      {
+        "category": "标准化/异常值",
+        "items": [
+          ".mean()/.std()",
+          "data[numeric_cols].quantile(百分比)",
+          "IQR",
+          "scaler.fit_transform"
+        ]
+      },
+      {
+        "category": "分割数据集",
+        "items": [
+          "train_test_split(X,y,test_size=0.2)"
+        ]
+      },
+      {
+        "category": "保存",
+        "items": [
+          "pd.concat([X, y], axis=1)",
+          "data.to_csv(file_name, index=False)"
+        ]
+      },
+      {
+        "category": "画图",
+        "items": [
+          "data.plot(kind='bar') 柱状图",
+          "data.plot.pie() 饼图",
+          "plt.scatter() 散点图"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2.2",
+    "title": "2.2.x 建模",
+    "points": [
+      {
+        "category": "模型",
+        "items": [
+          "LogisticRegression(max_iter=1000)",
+          "RandomForestRegressor(n_estimators=100)",
+          "xgb.XGBRegressor(n_estimators=100)",
+          "model.fit(X_train,y_train)",
+          ".dump(model,file)",
+          "model.predict(X_test)",
+          "smote.fit_resample()"
+        ]
+      },
+      {
+        "category": "模型评估",
+        "items": [
+          "model.score(X_train,y_train)",
+          "mean_squared_error(y_test, y_pred)",
+          "r2_score(y_test,y_pred)"
+        ]
+      },
+      {
+        "category": "分类转数值",
+        "items": [
+          "pd.get_dummies(X)",
+          "df['Your age'].apply(...)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3.2",
+    "title": "3.2.x 图像识别",
+    "points": [
+      {
+        "category": "模型加载",
+        "items": [
+          "ort.InferenceSession()"
+        ]
+      },
+      {
+        "category": "图像打开/处理",
+        "items": [
+          "Image.open('img_test.jpg').convert()",
+          "cv2.imread(img_path)",
+          "image.resize()",
+          "cv2.resize()",
+          "np.array()",
+          "np.expand_dims() 扩展"
+        ]
+      },
+      {
+        "category": "模型应用",
+        "items": [
+          "session.get_inputs()[0] 获取模型输入名称",
+          "session.run(None,inputs)"
+        ]
+      },
+      {
+        "category": "模型结果",
+        "items": [
+          "scipy.special.softmax()",
+          "np.argsort(probabilities[0])[-5:][::-1]",
+          "np.argmax(ort_outs[0]) 获取预测结果",
+          "np.argmax(accuracy) 获取预测的类别索引",
+          "accuracy[0,predicted_idx]*100",
+          "list(emotion_table.keys())[predicted_label]"
+        ]
+      },
+      {
+        "category": "其他",
+        "items": [
+          "name.strip() 去除首尾空格",
+          "mkdir(result_path)",
+          "labels[predicted_idx]"
+        ]
+      }
+    ]
+  }
+]
