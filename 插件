@@ -1,0 +1,161 @@
+https://vue.gallerycdn.vsassets.io/extensions/vue/volar/3.3.11/1787306786187/Microsoft.VisualStudio.Services.VSIXPackage
+https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/3.0.34/1784203161508/Microsoft.VisualStudio.Services.VSIXPackage
+
+[
+    {
+        "identifier": {
+            "id": "vue.volar",
+            "uuid": "a95ee795-1576-4ffa-acda-8d6e6a95c584"
+        },
+        "version": "3.3.8",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/E150812/.vscode/extensions/vue.volar-3.3.8",
+            "scheme": "file"
+        },
+        "relativeLocation": "vue.volar-3.3.8",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1771898813650,
+            "pinned": false,
+            "source": "gallery",
+            "id": "a95ee795-1576-4ffa-acda-8d6e6a95c584",
+            "publisherId": "49983e2f-38ad-4441-beea-d678b53d0549",
+            "publisherDisplayName": "Vue",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "private": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "donjayamanne.githistory",
+            "uuid": "5960f38e-0bbe-4644-8f9c-9c8824e82511"
+        },
+        "version": "0.6.20",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/E150812/.vscode/extensions/donjayamanne.githistory-0.6.20",
+            "scheme": "file"
+        },
+        "relativeLocation": "donjayamanne.githistory-0.6.20",
+        "metadata": {
+            "installedTimestamp": 1772069113303,
+            "pinned": false,
+            "source": "gallery",
+            "id": "5960f38e-0bbe-4644-8f9c-9c8824e82511",
+            "publisherId": "1ba8bd00-2ad1-4be0-a007-5b4b954c1ee7",
+            "publisherDisplayName": "Don Jayamanne",
+            "targetPlatform": "undefined",
+            "updated": false,
+            "private": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "eamodio.gitlens",
+            "uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
+        },
+        "version": "17.10.2",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/E150812/.vscode/extensions/eamodio.gitlens-17.10.2",
+            "scheme": "file"
+        },
+        "relativeLocation": "eamodio.gitlens-17.10.2",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1772154825690,
+            "pinned": false,
+            "source": "gallery",
+            "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
+            "publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
+            "publisherDisplayName": "GitKraken",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "private": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "dbaeumer.vscode-eslint",
+            "uuid": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a"
+        },
+        "version": "3.0.34",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/E150812/.vscode/extensions/dbaeumer.vscode-eslint-3.0.34",
+            "scheme": "file"
+        },
+        "relativeLocation": "dbaeumer.vscode-eslint-3.0.34",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1773029856012,
+            "pinned": false,
+            "source": "gallery",
+            "id": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a",
+            "publisherId": "29859a75-d81b-4f0e-8578-2c80ecee6f99",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "undefined",
+            "updated": true,
+            "private": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "alibaba-cloud.tongyi-lingma"
+        },
+        "version": "2.6.0",
+        "location": {
+            "$mid": 1,
+            "path": "/c:/Users/E150812/.vscode/extensions/alibaba-cloud.tongyi-lingma-2.6.0",
+            "scheme": "file"
+        },
+        "relativeLocation": "alibaba-cloud.tongyi-lingma-2.6.0",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1781177832551,
+            "pinned": true,
+            "source": "vsix"
+        }
+    },
+    {
+        "identifier": {
+            "id": "aia-cn-ea.ai-code-attribution"
+        },
+        "version": "0.1.16",
+        "location": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\E150812\\.vscode\\extensions\\aia-cn-ea.ai-code-attribution-0.1.16",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/E150812/.vscode/extensions/aia-cn-ea.ai-code-attribution-0.1.16",
+            "path": "/c:/Users/E150812/.vscode/extensions/aia-cn-ea.ai-code-attribution-0.1.16",
+            "scheme": "file"
+        },
+        "relativeLocation": "aia-cn-ea.ai-code-attribution-0.1.16",
+        "metadata": {
+            "installedTimestamp": 1786430738478,
+            "pinned": true,
+            "source": "vsix"
+        }
+    }
+]
